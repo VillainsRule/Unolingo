@@ -1,0 +1,9 @@
+# modules
+bun.lockb
+node_modules/
+
+# mac conf
+.DS_Store
+
+# cheat data
+.cache/
