@@ -97,7 +97,7 @@ const completeLesson = async (login, time) => {
         }
     });
 
-    return console.log(c.blue(`🎉 @${login.username} practied + gained ${response.data.xpGain}x XP.`));
+    return console.log(c.blue(`🎉 @${login.username} practiced + gained ${response.data.xpGain}x XP.`));
 };
 
 const getLessons = async (login) => {
